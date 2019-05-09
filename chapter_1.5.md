@@ -1,6 +1,6 @@
 ## 章節 1：貝葉斯定理（Bayes's Theorem）
 
-### 1.5 歷時性解釋 (The diachronic interpretation)
+### 1.5 歷時性的詮釋觀點 (The diachronic interpretation)
 
 有另一種思考貝葉斯定理的看法：它提供一種根據某些資料 D 去更新假設 H 的機率的方式。
 
