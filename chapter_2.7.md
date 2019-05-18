@@ -4,7 +4,7 @@
 
 這章介紹 Suite 類別，用來封裝貝葉斯更新的框架。
 
-Suite 是一個**抽象型別（abstract type）**，這表示 Suite 定義一個介面；一些應該要有方法但不一定會全部都有實作。例如 Suite 介面包含 Update 和 Likelihood 方法，但是 Suite 只有提供 Update 方法的實作，但是 Likelihood 方法則無。
+Suite 是一個**抽象型別（abstract type)**，這表示 Suite 定義一個介面；一些應該要有方法但不一定會全部都有實作。例如 Suite 介面包含 Update 和 Likelihood 方法，但是 Suite 只有提供 Update 方法的實作，但是 Likelihood 方法則無。
 
 **具體型別（concrete type）**是一個繼承自抽象母型別的類別，並且實作母型別中沒有實作的方法。例如 Monty 類別繼承 Suite 類別，所以Monty 類別也擁有 Update 方法跟 Likelihood 方法。
 
